@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="TestInFirefox(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="platform" value="WINDOWS"/>
+    <classes>
+      <class name="swd_tests_yandex_mail_page_object.YandexSimpleTests">
+        <methods>
+          <include name="checkLogOut1"/>
+          <include name="checkLogOut2"/>
+          <include name="deleteAllLetters"/>
+          <include name="tearDown"/>
+          <include name="enterSentLetterPage"/>
+          <include name="logoutFromYandexMail"/>
+          <include name="startBrowser"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- swd_tests_yandex_mail_page_object.YandexSimpleTests -->
+      <class name="swd_tests_yandex_mail_page_object.ActionWithTargets">
+        <methods>
+          <include name="tearDown"/>
+          <include name="moveTwoLettersInSpam"/>
+          <include name="startBrowser"/>
+          <include name="setDriver"/>
+          <include name="cleanSpam"/>
+        </methods>
+      </class> <!-- swd_tests_yandex_mail_page_object.ActionWithTargets -->
+    </classes>
+  </test> <!-- TestInFirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

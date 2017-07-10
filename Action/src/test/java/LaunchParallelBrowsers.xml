@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+    <test name="TestInFirefox" verbose="1" parallel="true" preserve-order="true">
+        <parameter name="browser" value="firefox" />
+        <parameter name="platform" value="WINDOWS"/>
+        <classes>
+            <class name="swd_tests_yandex_mail_page_object.YandexSimpleTests" />
+        </classes>
+    </test> 
+    <test name="TestInChrome" verbose="1" parallel="true" preserve-order="true">
+        <parameter name="browser" value="chrome" />
+        <parameter name="platform" value="WINDOWS" />
+        <classes>
+            <class name="swd_tests_yandex_mail_page_object.ActionWithTargets" />
+        </classes>
+    </test>
+</suite>

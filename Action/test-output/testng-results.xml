@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="13" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="91677" started-at="2017-07-09T21:49:01Z" finished-at="2017-07-09T21:50:33Z">
+    <groups>
+      <group name="checkLogout">
+        <method signature="YandexSimpleTests.checkLogOut1()[pri:7, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkLogOut1" class="swd_tests_yandex_mail_page_object.YandexSimpleTests"/>
+        <method signature="YandexSimpleTests.checkLogOut2()[pri:8, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkLogOut2" class="swd_tests_yandex_mail_page_object.YandexSimpleTests"/>
+      </group> <!-- checkLogout -->
+      <group name="checkLoginToYandex">
+        <method signature="YandexSimpleTests.checkLoginToYandex()[pri:1, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkLoginToYandex" class="swd_tests_yandex_mail_page_object.YandexSimpleTests"/>
+      </group> <!-- checkLoginToYandex -->
+      <group name="cleanSpam">
+        <method signature="ActionWithTargets.checkCleanSpam()[pri:2, instance:swd_tests_yandex_mail_page_object.ActionWithTargets@42dafa95]" name="checkCleanSpam" class="swd_tests_yandex_mail_page_object.ActionWithTargets"/>
+      </group> <!-- cleanSpam -->
+      <group name="checkDeleteAllMessages">
+        <method signature="YandexSimpleTests.checkDeleteAllLetter()[pri:6, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkDeleteAllLetter" class="swd_tests_yandex_mail_page_object.YandexSimpleTests"/>
+      </group> <!-- checkDeleteAllMessages -->
+      <group name="moveInSpam">
+        <method signature="ActionWithTargets.checkMoveInSpam()[pri:1, instance:swd_tests_yandex_mail_page_object.ActionWithTargets@42dafa95]" name="checkMoveInSpam" class="swd_tests_yandex_mail_page_object.ActionWithTargets"/>
+      </group> <!-- moveInSpam -->
+      <group name="sendAllLetters">
+        <method signature="YandexSimpleTests.checkSendAllLetter()[pri:4, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkSendAllLetter" class="swd_tests_yandex_mail_page_object.YandexSimpleTests"/>
+        <method signature="YandexSimpleTests.checkSendCurrentLetter([Ljava.lang.String;)[pri:3, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkSendCurrentLetter" class="swd_tests_yandex_mail_page_object.YandexSimpleTests"/>
+      </group> <!-- sendAllLetters -->
+      <group name="checkSentMessages">
+        <method signature="YandexSimpleTests.checkSentMessages([Ljava.lang.String;)[pri:5, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkSentMessages" class="swd_tests_yandex_mail_page_object.YandexSimpleTests"/>
+      </group> <!-- checkSentMessages -->
+      <group name="writeSaveLetter">
+        <method signature="YandexSimpleTests.checkWriteSaveLetter([Ljava.lang.String;)[pri:2, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkWriteSaveLetter" class="swd_tests_yandex_mail_page_object.YandexSimpleTests"/>
+      </group> <!-- writeSaveLetter -->
+    </groups>
+    <test name="TestInChrome" duration-ms="23491" started-at="2017-07-09T21:49:01Z" finished-at="2017-07-09T21:49:24Z">
+      <class name="swd_tests_yandex_mail_page_object.ActionWithTargets">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:swd_tests_yandex_mail_page_object.ActionWithTargets@42dafa95]" name="setDriver" is-config="true" duration-ms="1451" started-at="2017-07-10T00:49:01Z" finished-at="2017-07-10T00:49:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:swd_tests_yandex_mail_page_object.ActionWithTargets@42dafa95]" name="startBrowser" is-config="true" duration-ms="15487" started-at="2017-07-10T00:49:02Z" depends-on-methods="swd_tests_yandex_mail_page_object.PreparationForTests.setDriver" finished-at="2017-07-10T00:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="moveTwoLettersInSpam()[pri:0, instance:swd_tests_yandex_mail_page_object.ActionWithTargets@42dafa95]" name="moveTwoLettersInSpam" is-config="true" duration-ms="2083" started-at="2017-07-10T00:49:18Z" finished-at="2017-07-10T00:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveTwoLettersInSpam -->
+        <test-method status="PASS" signature="checkMoveInSpam()[pri:1, instance:swd_tests_yandex_mail_page_object.ActionWithTargets@42dafa95]" name="checkMoveInSpam" duration-ms="105" started-at="2017-07-10T00:49:20Z" finished-at="2017-07-10T00:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMoveInSpam -->
+        <test-method status="PASS" signature="cleanSpam()[pri:0, instance:swd_tests_yandex_mail_page_object.ActionWithTargets@42dafa95]" name="cleanSpam" is-config="true" duration-ms="133" started-at="2017-07-10T00:49:20Z" finished-at="2017-07-10T00:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanSpam -->
+        <test-method status="PASS" signature="checkCleanSpam()[pri:2, instance:swd_tests_yandex_mail_page_object.ActionWithTargets@42dafa95]" name="checkCleanSpam" duration-ms="3453" started-at="2017-07-10T00:49:20Z" finished-at="2017-07-10T00:49:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCleanSpam -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:swd_tests_yandex_mail_page_object.ActionWithTargets@42dafa95]" name="tearDown" is-config="true" duration-ms="756" started-at="2017-07-10T00:49:24Z" finished-at="2017-07-10T00:49:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- swd_tests_yandex_mail_page_object.ActionWithTargets -->
+    </test> <!-- TestInChrome -->
+    <test name="TestInFirefox" duration-ms="91677" started-at="2017-07-09T21:49:01Z" finished-at="2017-07-09T21:50:33Z">
+      <class name="swd_tests_yandex_mail_page_object.YandexSimpleTests">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String)[pri:0, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="setDriver" is-config="true" duration-ms="10172" started-at="2017-07-10T00:49:01Z" finished-at="2017-07-10T00:49:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="startBrowser" is-config="true" duration-ms="14649" started-at="2017-07-10T00:49:11Z" depends-on-methods="swd_tests_yandex_mail_page_object.PreparationForTests.setDriver" finished-at="2017-07-10T00:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="checkLoginToYandex()[pri:1, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkLoginToYandex" duration-ms="6003" started-at="2017-07-10T00:49:26Z" finished-at="2017-07-10T00:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginToYandex -->
+        <test-method status="PASS" signature="checkWriteSaveLetter([Ljava.lang.String;)[pri:2, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkWriteSaveLetter" duration-ms="6882" started-at="2017-07-10T00:49:32Z" data-provider="loadUserDataFromFile" finished-at="2017-07-10T00:49:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@51f331d9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWriteSaveLetter -->
+        <test-method status="PASS" signature="checkWriteSaveLetter([Ljava.lang.String;)[pri:2, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkWriteSaveLetter" duration-ms="5560" started-at="2017-07-10T00:49:39Z" data-provider="loadUserDataFromFile" finished-at="2017-07-10T00:49:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@612763eb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWriteSaveLetter -->
+        <test-method status="PASS" signature="checkSendCurrentLetter([Ljava.lang.String;)[pri:3, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkSendCurrentLetter" duration-ms="16494" started-at="2017-07-10T00:49:44Z" data-provider="loadUserDataFromFile" finished-at="2017-07-10T00:50:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3c480ccd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSendCurrentLetter -->
+        <test-method status="PASS" signature="checkSendCurrentLetter([Ljava.lang.String;)[pri:3, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkSendCurrentLetter" duration-ms="16844" started-at="2017-07-10T00:50:01Z" data-provider="loadUserDataFromFile" finished-at="2017-07-10T00:50:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@19052c20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSendCurrentLetter -->
+        <test-method status="PASS" signature="checkSendAllLetter()[pri:4, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkSendAllLetter" duration-ms="102" started-at="2017-07-10T00:50:18Z" finished-at="2017-07-10T00:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSendAllLetter -->
+        <test-method status="PASS" signature="enterSentLetterPage()[pri:0, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="enterSentLetterPage" is-config="true" duration-ms="277" started-at="2017-07-10T00:50:18Z" finished-at="2017-07-10T00:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSentLetterPage -->
+        <test-method status="PASS" signature="checkSentMessages([Ljava.lang.String;)[pri:5, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkSentMessages" duration-ms="863" started-at="2017-07-10T00:50:18Z" data-provider="loadUserDataFromFile" finished-at="2017-07-10T00:50:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1923330b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSentMessages -->
+        <test-method status="PASS" signature="checkSentMessages([Ljava.lang.String;)[pri:5, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkSentMessages" duration-ms="77" started-at="2017-07-10T00:50:19Z" data-provider="loadUserDataFromFile" finished-at="2017-07-10T00:50:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2da16ec4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSentMessages -->
+        <test-method status="PASS" signature="deleteAllLetters()[pri:0, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="deleteAllLetters" is-config="true" duration-ms="179" started-at="2017-07-10T00:50:19Z" finished-at="2017-07-10T00:50:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllLetters -->
+        <test-method status="PASS" signature="checkDeleteAllLetter()[pri:6, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkDeleteAllLetter" duration-ms="1664" started-at="2017-07-10T00:50:19Z" finished-at="2017-07-10T00:50:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDeleteAllLetter -->
+        <test-method status="FAIL" signature="logoutFromYandexMail()[pri:0, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="logoutFromYandexMail" is-config="true" duration-ms="0" started-at="2017-07-10T00:50:21Z" finished-at="2017-07-10T00:50:21Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//div[@class = 'b-mail-dropdown__item'][6]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+Command duration or timeout: 10.57 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.9.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=3f12f138-b407-40f4-b397-c78b0080559d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3f12f138-b407-40f4-b397-c78b0080559d
+*** Element info: {Using=xpath, value=//div[@class = 'b-mail-dropdown__item'][6]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'b-mail-dropdown__item'][6]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+Command duration or timeout: 10.57 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.9.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=3f12f138-b407-40f4-b397-c78b0080559d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3f12f138-b407-40f4-b397-c78b0080559d
+*** Element info: {Using=xpath, value=//div[@class = 'b-mail-dropdown__item'][6]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at pages.YandexCommonPageField.logOut(YandexCommonPageField.java:49)
+	at swd_tests_yandex_mail_page_object.YandexSimpleTests.logoutFromYandexMail(YandexSimpleTests.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.Invoker.invokeBeforeGroupsConfigurations(Invoker.java:888)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:582)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 27 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'b-mail-dropdown__item'][6]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Kaligor/AppData/Local/Temp/anonymous7273119934062781285webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Kaligor/AppData/Local/Temp/anonymous7273119934062781285webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromYandexMail -->
+        <test-method status="SKIP" signature="checkLogOut1()[pri:7, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkLogOut1" duration-ms="0" started-at="2017-07-10T00:50:32Z" finished-at="2017-07-10T00:50:32Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//div[@class = 'b-mail-dropdown__item'][6]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+Command duration or timeout: 10.57 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.9.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=3f12f138-b407-40f4-b397-c78b0080559d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3f12f138-b407-40f4-b397-c78b0080559d
+*** Element info: {Using=xpath, value=//div[@class = 'b-mail-dropdown__item'][6]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'b-mail-dropdown__item'][6]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+Command duration or timeout: 10.57 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.9.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=3f12f138-b407-40f4-b397-c78b0080559d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3f12f138-b407-40f4-b397-c78b0080559d
+*** Element info: {Using=xpath, value=//div[@class = 'b-mail-dropdown__item'][6]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at pages.YandexCommonPageField.logOut(YandexCommonPageField.java:49)
+	at swd_tests_yandex_mail_page_object.YandexSimpleTests.logoutFromYandexMail(YandexSimpleTests.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.Invoker.invokeBeforeGroupsConfigurations(Invoker.java:888)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:582)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 27 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'b-mail-dropdown__item'][6]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Kaligor/AppData/Local/Temp/anonymous7273119934062781285webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Kaligor/AppData/Local/Temp/anonymous7273119934062781285webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogOut1 -->
+        <test-method status="SKIP" signature="checkLogOut2()[pri:8, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="checkLogOut2" duration-ms="1" started-at="2017-07-10T00:50:32Z" finished-at="2017-07-10T00:50:32Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//div[@class = 'b-mail-dropdown__item'][6]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+Command duration or timeout: 10.57 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.9.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=3f12f138-b407-40f4-b397-c78b0080559d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3f12f138-b407-40f4-b397-c78b0080559d
+*** Element info: {Using=xpath, value=//div[@class = 'b-mail-dropdown__item'][6]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'b-mail-dropdown__item'][6]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+Command duration or timeout: 10.57 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.9.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=3f12f138-b407-40f4-b397-c78b0080559d, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3f12f138-b407-40f4-b397-c78b0080559d
+*** Element info: {Using=xpath, value=//div[@class = 'b-mail-dropdown__item'][6]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at pages.YandexCommonPageField.logOut(YandexCommonPageField.java:49)
+	at swd_tests_yandex_mail_page_object.YandexSimpleTests.logoutFromYandexMail(YandexSimpleTests.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.Invoker.invokeBeforeGroupsConfigurations(Invoker.java:888)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:582)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 27 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'b-mail-dropdown__item'][6]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Kaligor-PC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Kaligor/AppData/Local/Temp/anonymous7273119934062781285webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Kaligor/AppData/Local/Temp/anonymous7273119934062781285webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogOut2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:swd_tests_yandex_mail_page_object.YandexSimpleTests@27efef64]" name="tearDown" is-config="true" duration-ms="485" started-at="2017-07-10T00:50:32Z" finished-at="2017-07-10T00:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- swd_tests_yandex_mail_page_object.YandexSimpleTests -->
+    </test> <!-- TestInFirefox -->
+  </suite> <!-- Suite -->
+</testng-results>
